@@ -11,7 +11,7 @@
 		44D04F94EC2909E1CAFE40CE /* Pods_Flix_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D5E4E3A30C3128683620BF /* Pods_Flix_appTests.framework */; };
 		A48B102F28C8334B007AFB5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B102E28C8334B007AFB5F /* AppDelegate.swift */; };
 		A48B103128C8334B007AFB5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B103028C8334B007AFB5F /* SceneDelegate.swift */; };
-		A48B103328C8334B007AFB5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B103228C8334B007AFB5F /* ViewController.swift */; };
+		A48B103328C8334B007AFB5F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B103228C8334B007AFB5F /* ListViewController.swift */; };
 		A48B103628C8334B007AFB5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48B103428C8334B007AFB5F /* Main.storyboard */; };
 		A48B103828C8334F007AFB5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48B103728C8334F007AFB5F /* Assets.xcassets */; };
 		A48B103B28C8334F007AFB5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48B103928C8334F007AFB5F /* LaunchScreen.storyboard */; };
@@ -21,6 +21,11 @@
 		A48B106028C83C54007AFB5F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B105E28C83C53007AFB5F /* TableViewCell.swift */; };
 		A48B106128C83C54007AFB5F /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A48B105F28C83C54007AFB5F /* TableViewCell.xib */; };
 		A4A7B50428CBE388008CA75F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A7B50328CBE388008CA75F /* Movie.swift */; };
+		A4A7B50628CC11FE008CA75F /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A7B50528CC11FE008CA75F /* MovieViewController.swift */; };
+		A4A7B50828CC2268008CA75F /* ListViewController+ConfigTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A7B50728CC2268008CA75F /* ListViewController+ConfigTable.swift */; };
+		A4A7B50A28CC229C008CA75F /* ListViewController+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A7B50928CC229C008CA75F /* ListViewController+API.swift */; };
+		A4A7B50C28CC22C9008CA75F /* ListViewController+TableMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A7B50B28CC22C9008CA75F /* ListViewController+TableMethods.swift */; };
+		A4A7B50E28CC22F6008CA75F /* ListViewController+ViewDidLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A7B50D28CC22F6008CA75F /* ListViewController+ViewDidLoad.swift */; };
 		E87FB4618AB23DCDBF221591 /* Pods_Flix_app_Flix_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0B7FE98B709564F9963947 /* Pods_Flix_app_Flix_appUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +57,7 @@
 		A48B102B28C8334B007AFB5F /* Flix app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flix app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48B102E28C8334B007AFB5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A48B103028C8334B007AFB5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A48B103228C8334B007AFB5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A48B103228C8334B007AFB5F /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		A48B103528C8334B007AFB5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A48B103728C8334F007AFB5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A48B103A28C8334F007AFB5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,6 +70,11 @@
 		A48B105E28C83C53007AFB5F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		A48B105F28C83C54007AFB5F /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		A4A7B50328CBE388008CA75F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		A4A7B50528CC11FE008CA75F /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		A4A7B50728CC2268008CA75F /* ListViewController+ConfigTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListViewController+ConfigTable.swift"; sourceTree = "<group>"; };
+		A4A7B50928CC229C008CA75F /* ListViewController+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListViewController+API.swift"; sourceTree = "<group>"; };
+		A4A7B50B28CC22C9008CA75F /* ListViewController+TableMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ListViewController+TableMethods.swift"; path = "../../../../../ListViewController+TableMethods.swift"; sourceTree = "<group>"; };
+		A4A7B50D28CC22F6008CA75F /* ListViewController+ViewDidLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListViewController+ViewDidLoad.swift"; sourceTree = "<group>"; };
 		E03E4AEA5F4D085E76D7C730 /* Pods_Flix_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D5E4E3A30C3128683620BF /* Pods_Flix_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -117,7 +127,6 @@
 				71B39523042B87A5381D692A /* Pods-Flix appTests.debug.xcconfig */,
 				498B5BA03B3E996758DA77D8 /* Pods-Flix appTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -148,7 +157,12 @@
 			children = (
 				A48B102E28C8334B007AFB5F /* AppDelegate.swift */,
 				A48B103028C8334B007AFB5F /* SceneDelegate.swift */,
-				A48B103228C8334B007AFB5F /* ViewController.swift */,
+				A48B103228C8334B007AFB5F /* ListViewController.swift */,
+				A4A7B50D28CC22F6008CA75F /* ListViewController+ViewDidLoad.swift */,
+				A4A7B50728CC2268008CA75F /* ListViewController+ConfigTable.swift */,
+				A4A7B50B28CC22C9008CA75F /* ListViewController+TableMethods.swift */,
+				A4A7B50928CC229C008CA75F /* ListViewController+API.swift */,
+				A4A7B50528CC11FE008CA75F /* MovieViewController.swift */,
 				A4A7B50328CBE388008CA75F /* Movie.swift */,
 				A48B105E28C83C53007AFB5F /* TableViewCell.swift */,
 				A48B105F28C83C54007AFB5F /* TableViewCell.xib */,
@@ -417,11 +431,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A48B103328C8334B007AFB5F /* ViewController.swift in Sources */,
+				A48B103328C8334B007AFB5F /* ListViewController.swift in Sources */,
 				A48B106028C83C54007AFB5F /* TableViewCell.swift in Sources */,
 				A48B102F28C8334B007AFB5F /* AppDelegate.swift in Sources */,
 				A48B103128C8334B007AFB5F /* SceneDelegate.swift in Sources */,
 				A4A7B50428CBE388008CA75F /* Movie.swift in Sources */,
+				A4A7B50C28CC22C9008CA75F /* ListViewController+TableMethods.swift in Sources */,
+				A4A7B50828CC2268008CA75F /* ListViewController+ConfigTable.swift in Sources */,
+				A4A7B50628CC11FE008CA75F /* MovieViewController.swift in Sources */,
+				A4A7B50A28CC229C008CA75F /* ListViewController+API.swift in Sources */,
+				A4A7B50E28CC22F6008CA75F /* ListViewController+ViewDidLoad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
