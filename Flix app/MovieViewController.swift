@@ -30,7 +30,7 @@ class MovieViewController: UIViewController
         dateLabel.text = date
         dateLabel.adjustsFontSizeToFitWidth = true
         posterView.af.setImage(withURL: posterURL)
-        posterView.layer.borderWidth = 1.0
+        posterView.layer.borderWidth = 2.0
         posterView.layer.borderColor = UIColor.white.cgColor
         backgroundPosterView.af.setImage(withURL: backdropURL)
     }
