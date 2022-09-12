@@ -10,8 +10,7 @@ class MovieViewController: UIViewController
     @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var backButton: UIButton!
     
-    var selectedIndex: Int!
-    var movieList: [[String: Any]]!
+    var movie: [String: Any]!
     let bBaseURL = "https://image.tmdb.org/t/p/w300"
     let pBaseURL = "https://image.tmdb.org/t/p/w185"
 
@@ -38,8 +37,8 @@ class MovieViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        let posterURL = movieList[selectedIndex]["poster_path"] as! String
-        let backdropURL = movieList[selectedIndex]["backdrop_path"] as! String
-        setUp(title: movieList[selectedIndex]["title"] as! String, overview: movieList[selectedIndex]["overview"] as! String, date: movieList[selectedIndex]["release_date"] as! String, posterURL: URL(string: pBaseURL + posterURL)!, backdropURL: URL(string: bBaseURL + backdropURL)!)
+        let posterURL = movie["poster_path"] as! String
+        let backdropURL = movie["backdrop_path"] as! String
+        setUp(title: movie["title"] as! String, overview: movie["overview"] as! String, date: movie["release_date"] as! String, posterURL: URL(string: pBaseURL + posterURL)!, backdropURL: URL(string: bBaseURL + backdropURL)!)
     }
 }

@@ -16,8 +16,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
             if let indexPath = self.tableView.indexPathForSelectedRow
             {
                 let controller = segue.destination as! MovieViewController
-                controller.selectedIndex = indexPath.row
-                controller.movieList = movies
+                controller.movie = movies[indexPath.row]
             }
         }
     }
